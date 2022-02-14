@@ -4,9 +4,9 @@ console.log(png);
 
 console.log("x: ", x);
 const div = document.querySelector("#app");
-div.innerHTML = `
-<img src='${png}'></img>
-`;
+// div.innerHTML = `
+// <img src='${png}'></img>
+// `;
 
 const btn = document.createElement("button");
 btn.innerHTML = `懒加载`;
